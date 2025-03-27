@@ -1,0 +1,16 @@
+{
+  "query": "Computer Science Internship",
+  "num_scrolls": 5,
+  "requirements": {
+    "field": "Computer Science",
+    "type": "Internship",
+    "company": null,
+    "location": "San Jose, CA",
+    "within": "14 days",
+    "degree": "BS",
+    "experience": "1 year",
+    "start_date": "2023-09-01",
+    "duration": "4 months"
+  },
+  "similarity_threshold": 0.65
+}
