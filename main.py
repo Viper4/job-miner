@@ -172,7 +172,7 @@ class JobScraper(object):
             time.sleep(random.uniform(0.75, 2.0))  # Avoid getting blocked by LinkedIn
 
             self.valid_jobs.append({"url": url, "title": title, "company": company, "location": location, "posted": datetime} | attributes)
-            self.save_to_csv(self.valid_jobs[-1], SAVE_PATH, mode="a")
+            self.save_to_csv(self.valid_jobs[-1].values(), SAVE_PATH, mode="a")
             #print(self.valid_jobs[-1])
         print(f"Found {len(self.valid_jobs)} valid jobs and saved to {SAVE_PATH}")
 
