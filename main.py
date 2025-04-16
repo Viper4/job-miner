@@ -116,7 +116,7 @@ class JobScraper(object):
 
     def get_valid_jobs(self):
         if not os.path.exists(SAVE_PATH):
-            self.make_csv(["URL", "Title", "Company", "Date", "Location", "Description",
+            self.make_csv(["URL", "Title", "Company", "Location", "Date Posted",
                            "Field", "Degree", "Start Date", "Duration", "Requirements"], SAVE_PATH)
         now_date = dt.datetime.now()
 
